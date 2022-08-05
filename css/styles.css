@@ -1,36 +1,22 @@
-:root {
-  /* fonts */
+/* :root {
   --main-font: 'Roboto', sans-serif;
   --logo-font: 'Raleway', sans-serif;
 
-  /* text color */
   --main-txt-cl: #212121;
   --secondary-txt-cl: #757575;
   --accent-color: #2196f3;
 
-  /*  bg color*/
   --bg-dark-cl: #2f303a;
   --bg-light-cl: ##ffffff;
 
-  /* others */
   --indent: 30px;
   --items: 4;
-}
+} */
 
 /* Base styles */
-.container {
-  width: 1200px;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-
-  /* outline: 2px solid red;
-  outline-offset: -2px; */
-}
 
 /* reset styles */
-h1,
+/* h1,
 h2,
 h3,
 h4,
@@ -49,14 +35,14 @@ p {
   list-style: none;
   padding: 0;
   margin: 0;
-}
+} */
 
 /**
   |============================
   | Card set
   |============================
 */
-.card-set {
+/* .card-set {
   display: flex;
   flex-wrap: wrap;
   gap: var(--indent);
@@ -65,22 +51,31 @@ p {
 
 .card-set__item {
   flex-basis: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
-}
+} */
 
-img {
+/* img {
   display: block;
-}
+} */
 
+/* .container {
+  width: 1200px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+} */
+
+/* 
 body {
   font-family: var(--main-font);
   color: var(--main-txt-cl);
 }
 .no-scroll {
   overflow: hidden;
-}
+} */
 
 /* Header styles */
-
+/* 
 .header {
   border-bottom: 1px solid #ececec;
 }
@@ -88,9 +83,9 @@ body {
 .header__container {
   display: flex;
   align-items: center;
-}
+} */
 
-.logo {
+/* .logo {
   font-family: var(--logo-font);
   font-weight: 700;
   font-size: 26px;
@@ -107,8 +102,8 @@ body {
 
 .logo__part {
   color: #2196f3;
-}
-.header__nav {
+} */
+/* .nav {
   display: flex;
   margin-right: auto;
 }
@@ -123,12 +118,12 @@ body {
   letter-spacing: 0.02em;
 
   color: var(--main-txt-cl);
-}
+} */
 /* .nav__item {
 padding-top: 32px;
 padding-bottom: 32px;} */
 
-.nav__link,
+/* .nav__link,
 .header__link {
   display: block;
   padding-top: 32px;
@@ -157,19 +152,17 @@ padding-bottom: 32px;} */
   height: 4px;
   background: var(--accent-color);
   border-radius: 2px;
-}
+} */
 
-.header__addres {
+/* .header__addres {
   display: flex;
   gap: 50px;
 }
 
-.header-addres-link {
+.header__link {
   display: flex;
   align-items: center;
-}
 
-.header-addres-link {
   font-weight: 500;
   font-size: 14px;
   line-height: calc(16 / 14);
@@ -179,10 +172,10 @@ padding-bottom: 32px;} */
 .header__icon {
   fill: currentColor;
   margin-right: 10px;
-}
+} */
 /*Секція Герой Hero  */
 
-.hero {
+/* .hero {
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
@@ -217,10 +210,10 @@ padding-bottom: 32px;} */
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
-}
+} */
 
 /* Кнопки */
-.btn {
+/* .btn {
   min-width: 200px;
   min-height: 50px;
   padding: 10px auto;
@@ -237,28 +230,28 @@ padding-bottom: 32px;} */
 
   border: none;
   cursor: pointer;
-}
+} */
 
-.btn__hero {
+/* .btn__hero {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .btn__hero:hover,
 .btn__hero:focus {
   background-color: #188ce8;
-}
+} */
 
 /* Section about Особенности */
 
-.about {
+/* .about {
   padding-top: 94px;
 }
 
 .about,
 .work {
   background-color: var(--bg-light-cl);
-}
-.visually-hidden {
+} */
+/* .visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -269,8 +262,8 @@ padding-bottom: 32px;} */
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
-
+} */
+/* 
 .about__list {
   display: flex;
   gap: var(--indent);
@@ -311,10 +304,10 @@ padding-bottom: 32px;} */
 .about__text {
   line-height: calc(24 / 14);
   color: var(--secondary-txt-cl);
-}
+} */
 
 /* Section work Чем мы занимаемся */
-.work {
+/* .work {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -359,11 +352,6 @@ padding-bottom: 32px;} */
 }
 
 .add__text {
-  /* padding-top: 27px;
-  padding-bottom: 27px;
-  margin-left: auto;
-  margin-right: auto; */
-
   font-weight: 700;
   font-size: 14px;
   line-height: calc(16 / 14);
@@ -371,10 +359,10 @@ padding-bottom: 32px;} */
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
-}
+} */
 
 /*  Section team */
-.team {
+/* .team {
   padding-top: 94px;
   padding-bottom: 94px;
   background-color: #f5f4fa;
@@ -420,9 +408,9 @@ padding-bottom: 32px;} */
 .team__profession {
   letter-spacing: 0.03em;
   color: var(--secondary-txt-cl);
-}
+} */
 
-.social {
+/* .social {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -437,7 +425,7 @@ padding-bottom: 32px;} */
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  /* outline: 2px solid red; */
+  outline: 2px solid red;
 
   color: #afb1b8;
   background-color: #fff;
@@ -453,10 +441,10 @@ padding-bottom: 32px;} */
 .social__link:focus {
   color: #ffffff;
   background-color: var(--accent-color);
-}
+}  */
 
 /* Section Clients */
-.clients {
+/* .clients {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -476,7 +464,7 @@ padding-bottom: 32px;} */
   justify-content: center;
   width: 170px;
   height: 92px;
-  /* outline: 2px solid red; */
+  /* outline: 2px solid red; 
   border: 1px solid #afb1b8;
   border-radius: 4px;
   color: #afb1b8;
@@ -493,11 +481,11 @@ padding-bottom: 32px;} */
 .clients__link:focus {
   color: #2196f3;
   border: 1px solid #2196f3;
-}
+} */
 
 /* Footer Подвал */
 
-.footer {
+/* .footer {
   padding-top: 60px;
   padding-bottom: 60px;
 
@@ -509,12 +497,6 @@ padding-bottom: 32px;} */
 }
 .footer__contact {
   margin-right: 70px;
-}
-.footer__logo {
-  display: block;
-  margin-bottom: 20px;
-
-  color: #ffffff;
 }
 
 .footer__addres {
@@ -598,13 +580,13 @@ padding-bottom: 32px;} */
 }
 .subscription__icon {
   fill: #ffffff;
-}
+} */
 /* #188CE8 */
 
 /* examleps Примеры работ */
 
 /*Filter  */
-.examples {
+/* .examples {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -721,10 +703,10 @@ padding-bottom: 32px;} */
   line-height: 1.88;
   letter-spacing: 0.03em;
   color: var(--secondary-txt-cl);
-}
+} */
 
 /* Modal window */
-.backgrop {
+/* .backgrop {
   position: fixed;
   top: 0;
   left: 0;
@@ -858,7 +840,7 @@ padding-bottom: 32px;} */
   padding: 12px 16px;
   width: 100%;
   height: 120px;
-  /* margin-bottom: 20px; */
+  /* margin-bottom: 20px; 
   resize: none;
 
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -929,4 +911,4 @@ padding-bottom: 32px;} */
 .register-form__btn:hover,
 .register-form__btn:focus {
   background: #188ce8;
-}
+} */

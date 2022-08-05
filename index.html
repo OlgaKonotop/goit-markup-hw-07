@@ -13,6 +13,7 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
 		integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
 		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="./css/main.css" />
 	<link rel="stylesheet" href="./css/styles.css" />
 </head>
 
@@ -23,7 +24,7 @@
 	<header class="header">
 		<div class="container header__container">
 			<a class="link logo header__logo" href="/" lang="en"><span class="logo__part">Web</span>Studio</a>
-			<nav class="header__nav">
+			<nav class="nav">
 				<ul class="list nav__list">
 					<li class="nav__item"><a class="link nav__link nav__link--current " href="./index.html">Студія</a>
 					</li>
@@ -38,7 +39,7 @@
 							<use href="./images/icons.svg#envelope"></use>
 						</svg> info@devstudio.com</a>
 				</li>
-				<li class="header-contact">
+				<li class="header__contact">
 					<a class="link header__link" href="tel:+380961111111"><svg class="header__icon" width="10px" height="16px">
 							<use href="./images/icons.svg#smartphone"></use>
 						</svg>+38 096 111 11 11</a>
@@ -148,8 +149,8 @@
 							<p class="team__profession" lang="en">Product Designer</p>
 							<ul class="list social">
 								<li class="social__item">
-									<a class="social__link link" href="https://www.instagram.com" target="_blank" rel="noopener noreferrer"
-										aria-label="Ссылка на Инстаграм">
+									<a class="social__link link" href="https://www.instagram.com" target="_blank"
+										rel="noopener noreferrer" aria-label="Ссылка на Инстаграм">
 										<svg width="20" height="20">
 											<use class="social__icon" href="./images/icons.svg#instagram"></use>
 										</svg>
@@ -189,8 +190,8 @@
 							<p class="team__profession" lang="en">Frontend Developer</p>
 							<ul class="list social">
 								<li class="social__item">
-									<a class="social__link link" href="https://www.instagram.com" target="_blank" rel="noopener noreferrer"
-										aria-label="Ссылка на Инстаграм">
+									<a class="social__link link" href="https://www.instagram.com" target="_blank"
+										rel="noopener noreferrer" aria-label="Ссылка на Инстаграм">
 										<svg width="20" height="20">
 											<use class="social__icon" href="./images/icons.svg#instagram"></use>
 										</svg>
@@ -230,8 +231,8 @@
 							<p class="team__profession" lang="en">Marketing</p>
 							<ul class="list social">
 								<li class="social__item">
-									<a class="social__link link" href="https://www.instagram.com" target="_blank" rel="noopener noreferrer"
-										aria-label="Ссылка на Инстаграм">
+									<a class="social__link link" href="https://www.instagram.com" target="_blank"
+										rel="noopener noreferrer" aria-label="Ссылка на Инстаграм">
 										<svg width="20" height="20">
 											<use class="social__icon" href="./images/icons.svg#instagram"></use>
 										</svg>
@@ -271,8 +272,8 @@
 							<p class="team__profession" lang="en">UI Designer</p>
 							<ul class="list social">
 								<li class="social__item">
-									<a class="social__link link" href="https://www.instagram.com" target="_blank" rel="noopener noreferrer"
-										aria-label="Ссылка на Инстаграм">
+									<a class="social__link link" href="https://www.instagram.com" target="_blank"
+										rel="noopener noreferrer" aria-label="Ссылка на Инстаграм">
 										<svg width="20" height="20">
 											<use class="social__icon" href="./images/icons.svg#instagram"></use>
 										</svg>
@@ -386,8 +387,8 @@
 				<h4 class="social__title">приєднуйтесь</h4>
 				<ul class="list social">
 					<li class="social__item">
-						<a class="social__link footer__link link" href="instagram.com" target="_blank"
-							rel="noopener noreferrer" aria-label="Ссылка на Инстаграм">
+						<a class="social__link footer__link link" href="instagram.com" target="_blank" rel="noopener noreferrer"
+							aria-label="Ссылка на Инстаграм">
 							<svg width="20" height="20">
 								<use class="social__icon footer__icon" href="./images/icons.svg#instagram"></use>
 							</svg>
@@ -482,8 +483,8 @@
 						<use class="checked__icon--uncheck" href="./images/icons.svg#uncheck"></use>
 						<use class="checked__icon--check" href="./images/icons.svg#check"></use>
 					</svg>
-					<span class="checkbox__text">Погоджуюся з розсилкою та приймаю <a class="checkbox__link"
-							href="">Умови договору</a> </span>
+					<span class="checkbox__text">Погоджуюся з розсилкою та приймаю <a class="checkbox__link" href="">Умови
+							договору</a> </span>
 				</label>
 				<button class="register-form__btn btn" type="submit">Відправити</button>
 
